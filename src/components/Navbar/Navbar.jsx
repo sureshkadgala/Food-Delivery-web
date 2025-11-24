@@ -53,7 +53,7 @@ export default function Navbar({ setShowLogin }) {
         </a>
       </ul>
       <div className="navbar__right">
-        <img src={assets.search_icon} alt="" />
+        <img src={assets.search_icon} alt="icon" />
         <div className="navbar__search-icon">
           <Link to="/cart">
             <img src={assets.basket_icon} alt="img" />

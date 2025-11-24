@@ -1,5 +1,5 @@
 .header {
-  height: 34vw;
+  height: 35.5vw;
   margin: 30px auto;
   /* header image lives in src/assets/header_img.png; from this file the relative path is: ../../assets/header_img.png */
   background: url("/header_img.png") no-repeat;

@@ -32,7 +32,7 @@ function Footer() {
         <div className="footer__content-right">
           <h2>GET IN TOUCH</h2>
           <ul>
-            <li> +91 7654321890</li>
+            <li> +91 7674927795</li>
             <li> contact@tomato.com</li>
           </ul>
         </div>
