@@ -13,7 +13,7 @@ function ExploreMenu({ category, setCategory }) {
         meal at time.
       </p>
       <div className="explore__menu-list">
-        {menu_list.map((item, index) => {
+        {menu_list.map((item) => {
           return (
             <div
               onClick={() =>
@@ -21,7 +21,7 @@ function ExploreMenu({ category, setCategory }) {
                   prev === item.menu_name ? "All" : item.menu_name
                 )
               }
-              key={index}
+              key={item.menu_name}
               className="explore__menu__list-item"
             >
               <img
